@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: '*/20 * * * *' # At every 10th minute
+    - cron: '11 */12 * * *' # At minute 11 past every 12th hour (twice daily)
 
 jobs:
   build:
